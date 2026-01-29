@@ -370,22 +370,22 @@ export default function AmitBioApp() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
                   <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <h3 className="font-bold text-slate-900 mb-2">ðŸ“Š Browse the Overview</h3>
+                    <h3 className="font-bold text-slate-900 mb-2">📊 Browse the Overview</h3>
                     <p className="text-sm">Review the structured sections below for a traditional resume experience with executive highlights, detailed experience, and skills.</p>
                   </div>
                   
                   <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <h3 className="font-bold text-slate-900 mb-2">ðŸ’¬ Ask the AI Assistant</h3>
+                    <h3 className="font-bold text-slate-900 mb-2">💬 Ask the AI Assistant</h3>
                     <p className="text-sm">Use the chat interface to ask specific questions about my experience, achievements, or approach to product leadership.</p>
                   </div>
                   
                   <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <h3 className="font-bold text-slate-900 mb-2">ðŸ” Deep Dive with "Tell me more"</h3>
+                    <h3 className="font-bold text-slate-900 mb-2">🔍 Deep Dive with "Tell me more"</h3>
                     <p className="text-sm">Click "Tell me more" next to any experience bullet point to see detailed STAR-format analysis of that achievement.</p>
                   </div>
                   
                   <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                    <h3 className="font-bold text-slate-900 mb-2">ðŸ“± Navigate Intuitively</h3>
+                    <h3 className="font-bold text-slate-900 mb-2">📱 Navigate Intuitively</h3>
                     <p className="text-sm">Use expand/collapse controls to focus on the areas most relevant to you, creating your own customized view.</p>
                   </div>
                 </div>
@@ -669,7 +669,7 @@ export default function AmitBioApp() {
                         <p className="text-slate-700 font-medium">{job.company}</p>
                         <div className="flex flex-wrap gap-3 mt-1 text-base text-slate-600">
                           <span>{job.period}</span>
-                          <span>â€¢</span>
+                          <span>•</span>
                           <span>{job.location}</span>
                         </div>
                       </div>
@@ -686,7 +686,7 @@ export default function AmitBioApp() {
                         <ul className="space-y-2">
                           {job.bullets.map((bullet, bIdx) => (
                             <li key={bIdx} className="flex gap-2 text-base text-slate-700 items-start">
-                              <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">â€¢</span>
+                              <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">•</span>
                               <span 
                                 className="flex-1"
                                 dangerouslySetInnerHTML={{ 
@@ -723,7 +723,7 @@ export default function AmitBioApp() {
                   <ul className="space-y-2">
                     {skillsData.professionalSkills.map((skill, idx) => (
                       <li key={idx} className="text-base text-slate-700 flex items-start gap-2">
-                        <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">â€¢</span>
+                        <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">•</span>
                         <span>{skill}</span>
                       </li>
                     ))}
@@ -736,7 +736,7 @@ export default function AmitBioApp() {
                   <ul className="space-y-2">
                     {skillsData.technicalProficiency.map((skill, idx) => (
                       <li key={idx} className="text-base text-slate-700 flex items-start gap-2">
-                        <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">â€¢</span>
+                        <span className="text-slate-700 font-bold mt-0.5 flex-shrink-0">•</span>
                         <span>{skill}</span>
                       </li>
                     ))}
@@ -860,7 +860,7 @@ export default function AmitBioApp() {
       <footer className="bg-white/80 backdrop-blur-md border-t border-slate-200 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-600 text-base">Â© 2026 Amit Borenshtain. All rights reserved.</p>
+            <p className="text-slate-600 text-base">© 2026 Amit Borenshtain. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="mailto:amit.borenshtain@gmail.com" className="text-slate-600 hover:text-blue-600 transition-colors">
                 <Mail size={20} />
