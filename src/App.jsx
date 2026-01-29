@@ -71,6 +71,7 @@ export default function AmitBioApp() {
       'AI Platforms: Claude, ChatGPT, Gemini, Perplexity',
       'AI Tools: ChatPRD, Flowise, Zapier',
       'Product Prototyping: Lovable, MagicPatterns, v0',
+      'Deployment & Version Control: GitHub, Vercel',
       'Product Collaboration: Jira, Figma, Confluence',
       'GenAI & LLMs',
       'Data & Analytics: BI Platforms, Analytics Tools',
@@ -391,7 +392,7 @@ export default function AmitBioApp() {
                 </div>
 
                 <p className="text-sm italic text-slate-600 pt-2">
-                  I built this tool using Claude (Anthropic's AI assistant) as part of my commitment to hands-on exploration of AI capabilities. As an enthusiastic adopter of AI tools in product development, I believe in learning through direct applicationâ€”this interactive resume serves both as a demonstration of AI's potential and as a practical tool for sharing my professional story in an engaging, accessible format.
+                  I built this tool using Claude (Anthropic's AI assistant) as part of my commitment to hands-on exploration of AI capabilities. As an enthusiastic adopter of AI tools in product development, I believe in learning through direct application - this interactive resume serves both as a demonstration of AI's potential and as a practical tool for sharing my professional story in an engaging, accessible format.
                 </p>
               </div>
             </div>
