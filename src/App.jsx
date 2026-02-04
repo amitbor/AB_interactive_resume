@@ -66,8 +66,7 @@ export default function AmitBioApp() {
       'Team Building & Mentoring',
       'Customer Discovery & Research',
       'Product Design Principles (UX/UI)',
-      'Product Methodologies: Agile, User Stories, Functional and Non-Functional Requirements',
-      'Agile/Scrum Methodologies'
+      'User Stories, Functional and Non-Functional Product Requirements'
     ],
     technicalProficiency: [
       'AI Platforms: Claude, ChatGPT, Gemini, Perplexity',
