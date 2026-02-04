@@ -69,7 +69,7 @@ export default function AmitBioApp() {
     ],
     technicalProficiency: [
       'AI Platforms: Claude, ChatGPT, Gemini, Perplexity',
-      'AI Tools: ChatPRD, Flowise, Zapier',
+      'AI Tools: Make, Flowise, Zapier, ChatPRD',
       'Product Prototyping: Lovable, MagicPatterns, v0',
       'Deployment & Version Control: GitHub, Vercel',
       'Product Collaboration: Jira, Figma, Confluence',
