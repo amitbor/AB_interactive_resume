@@ -65,6 +65,8 @@ export default function AmitBioApp() {
       'Go-to-Market Strategy',
       'Team Building & Mentoring',
       'Customer Discovery & Research',
+      'Product Design Principles (UX/UI)',
+      'Product Methodologies: Agile, User Stories, Functional and Non-Functional Requirements',
       'Agile/Scrum Methodologies'
     ],
     technicalProficiency: [
@@ -75,9 +77,7 @@ export default function AmitBioApp() {
       'Product Collaboration: Jira, Figma, Confluence',
       'GenAI & LLMs',
       'Data & Analytics: BI Platforms, Analytics Tools',
-      'Product Design Principles (UX/UI)',
-      'Customer Systems: CRM, Marketing Platforms',
-      'Product Methodologies: Agile, User Stories, Functional and Non-Functional Requirements'
+      'Customer Systems: CRM, Marketing Platforms'
     ]
   };
 
